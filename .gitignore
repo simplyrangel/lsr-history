@@ -3,6 +3,11 @@
 *.aux
 *.out
 *.toc
+*.bbl
+*.bcf
+*.blg
+*.run.xml
 
 # operating system background files:
 .~loc*
+*.swp

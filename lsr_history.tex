@@ -4,6 +4,17 @@
 \usepackage[margin=1in]{geometry}
 \usepackage{graphicx} %enable image embedding
 \usepackage{longtable}
+
+% bibliography
+% basic information here: https://www.overleaf.com/learn/latex/biblatex_citation_styles
+\usepackage[
+    backend=biber,
+    style=alphabetic,
+    citestyle=authoryear
+]{biblatex}
+\addbibresource{references.bib}
+
+% document misc: 
 \parindent 0pt % no indents for new paragraphs
 \renewcommand{\familydefault}{\sfdefault}
 
@@ -46,17 +57,21 @@
 \section{FAQ's and attempts to answer them}
 
 \subsection{On slavery}
-\textbf{Did LSR ever own slaves?}
-\textbf{Did LSR condone slavery?}
+\textbf{Did LSR ever own slaves? \\}
+
+\textbf{Did LSR condone slavery? \\}
 
 \subsection{On the Confederacy}
-\textbf{What did LSR think about the Confederate States of America?}
-\textbf{Did LSR serve in the Confederate Army?}
+\textbf{What did LSR think about the Confederate States of America? \\}
+
+\textbf{Did LSR serve in the Confederate Army? \\}
 
 \subsection{Attitude on race}
-\textbf{Was LSR a member of the Klu Klux Klan?}
-\textbf{What was LSR's attitude towards racial minorities, particularly African Americans?}
-\textbf{What did the contemporary black community think of LSR?}
+\textbf{Was LSR a member of the Klu Klux Klan? \\}
+
+\textbf{What was LSR's attitude towards racial minorities, particularly African Americans? \\}
+
+\textbf{What did the contemporary black community think of LSR? \\}
 
 
 % -----------------------------------------------------
@@ -104,6 +119,12 @@
 % -----------------------------------------------------
 \newpage
 \section{Death and legacy}
+
+% -----------------------------------------------------
+% References.
+% -----------------------------------------------------
+\newpage
+\printbibliography
 
 % -----------------------------------------------------
 % End document.
