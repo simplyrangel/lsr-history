@@ -3,6 +3,11 @@ A personal passion project researching the history of Lawrence Sullivan Ross. Th
 
 This project attempts to answer common questions about Lawrence Ross' behaviors, beliefs, and actions concerning African Americans before, during, and after the Civil War. This document does not discuss Lawrence Ross' history with Native Americans, his years as president of the Agricultural and Mechanical College of Texas, or what role he should play in Texas A&M's current and future culture. 
 
+# Document access
+The research document is available in two locations:
+1. lsr_history.pdf, tracked in this Git repository with Git LFS. 
+2. Scribd (https://www.scribd.com/document/467409520/Lawrence-Ross-FAQ-20200629)
+
 # Sources
 Research material generated in the creation of this document, and the items cited throughout, are available online via Google Drive:
 https://drive.google.com/drive/folders/1h493Edj-1fKCnI8hRfd1kw8nYTTstslM
